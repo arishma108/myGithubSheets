@@ -31,7 +31,7 @@ cat <<EOF
 
 # Now push to GitHub with something like...
 
-git remote add origin https://github.com/arishma108/time.git
+git remote add origin https://github.com/arishma108/Hello---World.git
 git branch -M main
 git push -u origin main
 EOF
