@@ -6,7 +6,7 @@ git init
 cat  <<EOF > README.md
 # Time 
 
-keeping a time metrics journal?
+keeping Refactoring time?
 Run `run.sh`
 It will create a commit for every day for the last $MAX_DAYS days.
 
@@ -20,7 +20,7 @@ days=$(seq $MAX_DAYS | tac)
 for day in $days ;
 do 
     date="$day days ago"
-    message="Add my commit timeframe $date"
+    message="Refactoring timeheet $date"
     echo "- Added commit $message" >> README.md
     git add .
     git commit --date "$date" -m "$message"
